@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "example-description-datacatalogtordf"
+version = "0.1.0"
+description = "Example of how to use datacatalogtordf to describe a catalog with datasets"
+authors = ["Terje Sylvarnes <108797958+terjesyl@users.noreply.github.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+repository = "https://github.com/terjesyl/example-description-datacatalogtordf"
+packages = [ {include = "src" } ]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.11"
+datacatalogtordf = "^3.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
