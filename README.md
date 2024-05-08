@@ -17,3 +17,7 @@ poetry run python src/example-description-datacatalogtordf/dataset_description.p
 ```
 
 Currently prints out RDF to stdout
+
+## Validation
+
+Validate the RDF/Turtle-output at [data.norge.no/validator](https://data.norge.no/validator)
